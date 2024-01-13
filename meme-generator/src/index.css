@@ -1,23 +1,69 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
   background-color: #212529;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header{
-  color: #fff;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-  padding: 2.5rem;
+main {
+  padding: 2.25rem;
+}
+
+.header {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 4.0625rem;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 1.25rem;
 }
 
-.header--image{
+.header--image {
+  height: 100%;
+  margin-right: .375rem;
+}
 
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 2.5rem 2.5rem / 1fr 1fr;
+  gap: 1.0625rem;
+}
+
+.form--label {
+  margin-bottom: .3125rem;
+  color: #fff;
+  
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: .3125rem;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  height: 2.1875rem;
+  width: 100%;
+  margin-top: .3rem;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
 }

@@ -6,7 +6,7 @@ export const Header = ({ title }) => {
         <header className='header'>
             <img className='header--image' src={trollFace} />
             <h2 className='header--title'>{title}</h2>
-            <h4 className='header--project'>React Memes - Just for fun</h4>
+            <h4 className='header--project'>Add you own text - Just for fun</h4>
         </header>
     )
 }
